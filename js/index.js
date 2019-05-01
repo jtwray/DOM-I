@@ -67,3 +67,5 @@ let abouth4 = document.querySelector(`section.main-content  div.top-content  div
 abouth4.textContent = siteContent["main-content"]["about-h4"];
 let aboutcontent = document.querySelector(`section.main-content  div.top-content  div:nth-child(2)   p`);
 aboutcontent.textContent = siteContent["main-content"]["about-content"];
+let middleImg = document.getElementById('middle-img');
+middleImg.src = siteContent["main-content"]["middle-img-src"];
