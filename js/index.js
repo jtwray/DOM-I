@@ -51,4 +51,11 @@ navItems[5].textContent = 'Contact';
 
 
 let ctaImg = document.getElementById('cta-img');
-ctaImg.setAttribute('src', siteContent['cta']['img-src']);
+ctaImg.src = siteContent.cta["img-src"];
+let ctaH1 = document.querySelector('section.cta div h1');
+ctaH1.textContent = siteContent.cta.h1;
+ctaH1.style = (`max-width:230px;
+   word-spacing: 10cm;
+  `);
+let ctaBtn = document.querySelector(`button`);
+ctaBtn.textContent = siteContent.cta.button;
