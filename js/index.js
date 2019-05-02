@@ -68,4 +68,19 @@ abouth4.textContent = siteContent["main-content"]["about-h4"];
 let aboutcontent = document.querySelector(`section.main-content  div.top-content  div:nth-child(2)   p`);
 aboutcontent.textContent = siteContent["main-content"]["about-content"];
 let middleImg = document.getElementById('middle-img');
-middleImg.src = siteContent["main-content"]["middle-img-src"];
+middleImg.src = siteContent["main-content"]['middle-img-src'];
+
+let servicesH4 = document.querySelector(`section.main-content  div.bottom-content  div:nth-child(1)  h4`);
+servicesH4.textContent = siteContent["main-content"]["services-h4"];
+let servicescontent = document.querySelector(`section.main-content > div.bottom-content > div:nth-child(1) > p`);
+servicescontent.textContent = siteContent["main-content"]["services-content"];
+
+let productH4 = document.querySelector(`section.main-content  div.bottom-content  div:nth-child(2)  h4`);
+productH4.textContent = siteContent["main-content"]["product-h4"];
+let productcontent = document.querySelector(`section.main-content  div.bottom-content  div:nth-child(2)  p`);
+productcontent.textContent = siteContent["main-content"]["product-content"];
+
+let visionH4 = document.querySelector(`section.main-content  div.bottom-content  div:nth-child(3)  h4`);
+visionH4.textContent = siteContent["main-content"]["vision-h4"];
+let visioncontent = document.querySelector(`section.main-content  div.bottom-content  div:nth-child(3)  p`);
+visioncontent.textContent = siteContent["main-content"]["vision-content"];
